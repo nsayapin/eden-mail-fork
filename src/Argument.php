@@ -51,6 +51,7 @@ class Argument
     public static function i()
     {
         $class = __CLASS__;
+        global $message, $code;
         return new $class($message, $code);
     }
     
